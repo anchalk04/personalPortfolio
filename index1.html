@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Portfolio Website</title>
+	<!---custom css link---->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+	<!------Header Section------>
+	<header>
+		
+		<ul class="navlist">
+			<li><a href="#home" class="active">Home</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#services">Skills</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+		<div class="bx bx-menu" id="menu-icon"></div>
+	</header>
+
+	<!---------Home Section--------------->
+	<section class="home" id="home">
+        <div class="left_side">
+            <div class="icons">
+                <i class="fa-solid fa-phone"></i> 
+                <i class="fa-solid fa-envelope"></i> 
+                <i class="fa-brands fa-linkedin"></i> 
+                <i class="fa-brands fa-github"></i> 
+            </div>
+            <div class="content">
+                <p class="intro">Hello Recruiters! I am</p>
+                    <h1>Anchal Kumar</h1>
+                    <p class="detail">Proficient Computer Science student with hands-on experience in web development, data structures, and algorithms.
+                        Seeking an internship to apply technical expertise and collaborative skills towards innovative software projects and
+                        gain practical industrial experience.
+                    </p>
+                    <div class="button">
+                        <a href="#about" class="btn">About Me</a>
+                    </div>
+            </div>
+        </div>
+        <div class="right_side"></div>
+        <div class="design">
+            <div class="circle"></div> <!-- First Circle -->
+            <div class="circle">
+                <img src="img/profile3.png" alt="Profile Image">
+            </div> <!-- Second Circle with Image -->
+        </div>
+        
+		<!-- <div class="home-text">
+			<div class="slide">
+				<span class="two">Hello! I am</span>
+			</div>
+			<h1>Anchal Kumar</h1>
+			<p>Proficient Computer Science student with hands-on experience in web development, <br>data structures, and algorithms. Seeking an internship to apply technical expertise and <br> collaborative skills towards innovative software projects and
+				gain practical industrial experience.</p>
+			<div class="button">
+				<a href="#about" class="btn">About Me</a>
+			</div>
+		</div> -->
+	</section>
+
+	<!---------about Section --------------->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/istockphoto-537331500-1024x1024.jpg">
+		</div>
+
+		<div class="about-text">
+			<h2>About <span>Me</span></h2>
+			<h4>Education</h4>
+			<p><ul><strong>Kendriya Vidyalaya, Patna</strong>
+				<li>graduated class XII in 2022</li></ul>
+				<img width="25px" height="25px" src="https://e7.pngegg.com/pngimages/279/924/png-clipart-government-of-india-kendriya-vidyalaya-sangathan-recruitment-examination-lower-division-clerk-test-school-text-teacher-thumbnail.png" alt="kv">
+				<br/>
+				<br/>
+				<ul><strong>Maulana Azad National Institute of Technology</strong>
+					<li>pursuing B.Tech in Computer Science and Engineering </li><img width="25px" height="25px" src="img/manit.png" alt="manit logo">
+				</ul>
+			</p>
+				<a href="#" class="btn">More About</a>
+		</div>
+	</section>
+
+	<!-----------Services Section-------------->
+	<section class="services" id="services">
+	<div class="main-text">
+		<h2><span>My</span>Skills</h2>
+	</div>
+	<div class="services-content">
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bx-mobile-alt'></i>
+			</div>
+			<h3>Technical languages</h3>
+			<p>Profficient in C, C++, HTML, CSS, JavaScript, and MYSQL.</p>
+			<a href="#" class="btn">Read More</a>
+		</div>
+
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bx-code-alt'></i>
+			</div>
+			<h3>Soft Skills</h3>
+			<p>Team work, Communication, Adaptability, Networking.</p>
+			<a href="#" class="btn">Read More</a>
+		</div>
+
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bx-edit-alt'></i>
+			</div>
+			<h3>Tools and FrameWork</h3>
+			<p>Comfortable around technologies like React.js, Node.js, Express.js.</p>
+			<a href="#" class="btn">Read More</a>
+		</div>
+	</div>
+
+</section>
+
+<!------------------Contact section------------>
+<section class="contact" id="contact">
+	<div class="contact-text">
+		<h2>Contact <span>Me!</span></h2>
+		<h4>If you think I am a good fit for the opportunity.</h4>
+		<p>I'm a website Designer - creating bold & brave interface design for compaines all across the world.</p>
+		<div class="list">
+			<li><a href="tel:+916205570341">6205570341</a></li>
+			<li><a href="mailto:">abhigyansingh@gmail.com</a></li>
+		</div>
+
+		<div class="contact-icons">
+			<a href="https://www.linkedin.com/in/anchal-kumar-8005bb323/?originalSubdomain=in"><i class='bx bxl-linkedin'></i></a>
+			<a href="https://github.com/anchalk04"><i class='bx bxl-github' ></i></a>
+		</div>
+
+	</div>
+	<div class="contact-form">
+		<form action="">
+			<input type="name" placeholder="Your Name " required>
+			<input type="email" placeholder="Your Email " required>
+			<input type="number" placeholder="your Mobile Number" required>
+			<textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You " required></textarea>
+			<input type="submit" value="Send Message" class="submit" required>
+		</form>
+
+	</div>
+</section>
+
+<!---------End Section---------->
+<section class="end">
+	<div class="last-text">
+		<p>Design By AnchalKumar</p>
+	</div>
+	<div class="top">
+		<a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+	</div>
+</section>
+
+</body>
+
+</html>
